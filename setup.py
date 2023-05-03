@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name="deep-clone",
-    version="0.0.1",
-    py_modules=["deep_clone"],
+    version="0.0.5",
+    py_modules=["deep-clone"],
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "reverse=deep_clone:main",
+            "deepclone=deepclone.main:main",
         ],
     },
     author="Rajan Gupta",
